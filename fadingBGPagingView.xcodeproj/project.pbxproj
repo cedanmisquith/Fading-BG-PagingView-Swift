@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9FFFFB422D7073500C22CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFFFB322D7073500C22CED /* AppDelegate.swift */; };
+		F9FFFFB922D7073500C22CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FFFFB722D7073500C22CED /* Main.storyboard */; };
+		F9FFFFBB22D7073800C22CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FFFFBA22D7073800C22CED /* Assets.xcassets */; };
+		F9FFFFBE22D7073800C22CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FFFFBC22D7073800C22CED /* LaunchScreen.storyboard */; };
+		F9FFFFC922D7073800C22CED /* fadingBGPagingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFFFC822D7073800C22CED /* fadingBGPagingViewTests.swift */; };
+		F9FFFFD422D7073800C22CED /* fadingBGPagingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFFFD322D7073800C22CED /* fadingBGPagingViewUITests.swift */; };
+		F9FFFFE222D707C200C22CED /* FadingBGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFFFE122D707C200C22CED /* FadingBGViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9FFFFC522D7073800C22CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FFFFA822D7073500C22CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FFFFAF22D7073500C22CED;
+			remoteInfo = fadingBGPagingView;
+		};
+		F9FFFFD022D7073800C22CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9FFFFA822D7073500C22CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9FFFFAF22D7073500C22CED;
+			remoteInfo = fadingBGPagingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9FFFFB022D7073500C22CED /* fadingBGPagingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fadingBGPagingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FFFFB322D7073500C22CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9FFFFB822D7073500C22CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9FFFFBA22D7073800C22CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9FFFFBD22D7073800C22CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9FFFFBF22D7073800C22CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FFFFC422D7073800C22CED /* fadingBGPagingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fadingBGPagingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FFFFC822D7073800C22CED /* fadingBGPagingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fadingBGPagingViewTests.swift; sourceTree = "<group>"; };
+		F9FFFFCA22D7073800C22CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FFFFCF22D7073800C22CED /* fadingBGPagingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fadingBGPagingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FFFFD322D7073800C22CED /* fadingBGPagingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fadingBGPagingViewUITests.swift; sourceTree = "<group>"; };
+		F9FFFFD522D7073800C22CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FFFFE122D707C200C22CED /* FadingBGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadingBGViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9FFFFAD22D7073500C22CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FFFFC122D7073800C22CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FFFFCC22D7073800C22CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9FFFFA722D7073500C22CED = {
+			isa = PBXGroup;
+			children = (
+				F9FFFFB222D7073500C22CED /* fadingBGPagingView */,
+				F9FFFFC722D7073800C22CED /* fadingBGPagingViewTests */,
+				F9FFFFD222D7073800C22CED /* fadingBGPagingViewUITests */,
+				F9FFFFB122D7073500C22CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9FFFFB122D7073500C22CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFFFB022D7073500C22CED /* fadingBGPagingView.app */,
+				F9FFFFC422D7073800C22CED /* fadingBGPagingViewTests.xctest */,
+				F9FFFFCF22D7073800C22CED /* fadingBGPagingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FFFFB222D7073500C22CED /* fadingBGPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFFFB322D7073500C22CED /* AppDelegate.swift */,
+				F9FFFFE122D707C200C22CED /* FadingBGViewController.swift */,
+				F9FFFFB722D7073500C22CED /* Main.storyboard */,
+				F9FFFFBA22D7073800C22CED /* Assets.xcassets */,
+				F9FFFFBC22D7073800C22CED /* LaunchScreen.storyboard */,
+				F9FFFFBF22D7073800C22CED /* Info.plist */,
+			);
+			path = fadingBGPagingView;
+			sourceTree = "<group>";
+		};
+		F9FFFFC722D7073800C22CED /* fadingBGPagingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFFFC822D7073800C22CED /* fadingBGPagingViewTests.swift */,
+				F9FFFFCA22D7073800C22CED /* Info.plist */,
+			);
+			path = fadingBGPagingViewTests;
+			sourceTree = "<group>";
+		};
+		F9FFFFD222D7073800C22CED /* fadingBGPagingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFFFD322D7073800C22CED /* fadingBGPagingViewUITests.swift */,
+				F9FFFFD522D7073800C22CED /* Info.plist */,
+			);
+			path = fadingBGPagingViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9FFFFAF22D7073500C22CED /* fadingBGPagingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FFFFD822D7073800C22CED /* Build configuration list for PBXNativeTarget "fadingBGPagingView" */;
+			buildPhases = (
+				F9FFFFAC22D7073500C22CED /* Sources */,
+				F9FFFFAD22D7073500C22CED /* Frameworks */,
+				F9FFFFAE22D7073500C22CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fadingBGPagingView;
+			productName = fadingBGPagingView;
+			productReference = F9FFFFB022D7073500C22CED /* fadingBGPagingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9FFFFC322D7073800C22CED /* fadingBGPagingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FFFFDB22D7073800C22CED /* Build configuration list for PBXNativeTarget "fadingBGPagingViewTests" */;
+			buildPhases = (
+				F9FFFFC022D7073800C22CED /* Sources */,
+				F9FFFFC122D7073800C22CED /* Frameworks */,
+				F9FFFFC222D7073800C22CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FFFFC622D7073800C22CED /* PBXTargetDependency */,
+			);
+			name = fadingBGPagingViewTests;
+			productName = fadingBGPagingViewTests;
+			productReference = F9FFFFC422D7073800C22CED /* fadingBGPagingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9FFFFCE22D7073800C22CED /* fadingBGPagingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FFFFDE22D7073800C22CED /* Build configuration list for PBXNativeTarget "fadingBGPagingViewUITests" */;
+			buildPhases = (
+				F9FFFFCB22D7073800C22CED /* Sources */,
+				F9FFFFCC22D7073800C22CED /* Frameworks */,
+				F9FFFFCD22D7073800C22CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9FFFFD122D7073800C22CED /* PBXTargetDependency */,
+			);
+			name = fadingBGPagingViewUITests;
+			productName = fadingBGPagingViewUITests;
+			productReference = F9FFFFCF22D7073800C22CED /* fadingBGPagingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9FFFFA822D7073500C22CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = cedanmisquith;
+				TargetAttributes = {
+					F9FFFFAF22D7073500C22CED = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F9FFFFC322D7073800C22CED = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F9FFFFAF22D7073500C22CED;
+					};
+					F9FFFFCE22D7073800C22CED = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F9FFFFAF22D7073500C22CED;
+					};
+				};
+			};
+			buildConfigurationList = F9FFFFAB22D7073500C22CED /* Build configuration list for PBXProject "fadingBGPagingView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9FFFFA722D7073500C22CED;
+			productRefGroup = F9FFFFB122D7073500C22CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9FFFFAF22D7073500C22CED /* fadingBGPagingView */,
+				F9FFFFC322D7073800C22CED /* fadingBGPagingViewTests */,
+				F9FFFFCE22D7073800C22CED /* fadingBGPagingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9FFFFAE22D7073500C22CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FFFFBE22D7073800C22CED /* LaunchScreen.storyboard in Resources */,
+				F9FFFFBB22D7073800C22CED /* Assets.xcassets in Resources */,
+				F9FFFFB922D7073500C22CED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FFFFC222D7073800C22CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FFFFCD22D7073800C22CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9FFFFAC22D7073500C22CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FFFFE222D707C200C22CED /* FadingBGViewController.swift in Sources */,
+				F9FFFFB422D7073500C22CED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FFFFC022D7073800C22CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FFFFC922D7073800C22CED /* fadingBGPagingViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FFFFCB22D7073800C22CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FFFFD422D7073800C22CED /* fadingBGPagingViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9FFFFC622D7073800C22CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FFFFAF22D7073500C22CED /* fadingBGPagingView */;
+			targetProxy = F9FFFFC522D7073800C22CED /* PBXContainerItemProxy */;
+		};
+		F9FFFFD122D7073800C22CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9FFFFAF22D7073500C22CED /* fadingBGPagingView */;
+			targetProxy = F9FFFFD022D7073800C22CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9FFFFB722D7073500C22CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FFFFB822D7073500C22CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9FFFFBC22D7073800C22CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9FFFFBD22D7073800C22CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9FFFFD622D7073800C22CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9FFFFD722D7073800C22CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9FFFFD922D7073800C22CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VB6TLLAYR;
+				INFOPLIST_FILE = fadingBGPagingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedanmisquith.fadingBGPagingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9FFFFDA22D7073800C22CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VB6TLLAYR;
+				INFOPLIST_FILE = fadingBGPagingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedanmisquith.fadingBGPagingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9FFFFDC22D7073800C22CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VB6TLLAYR;
+				INFOPLIST_FILE = fadingBGPagingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedanmisquith.fadingBGPagingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fadingBGPagingView.app/fadingBGPagingView";
+			};
+			name = Debug;
+		};
+		F9FFFFDD22D7073800C22CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VB6TLLAYR;
+				INFOPLIST_FILE = fadingBGPagingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedanmisquith.fadingBGPagingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fadingBGPagingView.app/fadingBGPagingView";
+			};
+			name = Release;
+		};
+		F9FFFFDF22D7073800C22CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VB6TLLAYR;
+				INFOPLIST_FILE = fadingBGPagingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedanmisquith.fadingBGPagingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fadingBGPagingView;
+			};
+			name = Debug;
+		};
+		F9FFFFE022D7073800C22CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VB6TLLAYR;
+				INFOPLIST_FILE = fadingBGPagingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedanmisquith.fadingBGPagingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fadingBGPagingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9FFFFAB22D7073500C22CED /* Build configuration list for PBXProject "fadingBGPagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FFFFD622D7073800C22CED /* Debug */,
+				F9FFFFD722D7073800C22CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FFFFD822D7073800C22CED /* Build configuration list for PBXNativeTarget "fadingBGPagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FFFFD922D7073800C22CED /* Debug */,
+				F9FFFFDA22D7073800C22CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FFFFDB22D7073800C22CED /* Build configuration list for PBXNativeTarget "fadingBGPagingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FFFFDC22D7073800C22CED /* Debug */,
+				F9FFFFDD22D7073800C22CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FFFFDE22D7073800C22CED /* Build configuration list for PBXNativeTarget "fadingBGPagingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FFFFDF22D7073800C22CED /* Debug */,
+				F9FFFFE022D7073800C22CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9FFFFA822D7073500C22CED /* Project object */;
+}
