@@ -11,7 +11,7 @@ I took inspiration from the famous app Abstruct on the App Store to replicate an
 App Store URL: 
 https://apps.apple.com/us/app/abstruct-wallpapers-in-4k/id1124484569
 
-![Inspiration Demo gif] (https://github.com/cedanmisquith/Fading-BG-PagingView-Swift/blob/master/Inspiration%20Demo.gif)
+![Inspiration Demo gif](https://github.com/cedanmisquith/Fading-BG-PagingView-Swift/blob/master/Inspiration%20Demo.gif)
 
 # Demo: 
 
